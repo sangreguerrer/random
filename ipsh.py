@@ -10,7 +10,7 @@ def location(ip: str):
         print("Oops")
     result = response.json()
     if result["status"] == "fail":
-        return main("Enter the correct IP address")
+        return main("Enter the IP address")
 
     record = []
 
