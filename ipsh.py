@@ -31,4 +31,4 @@ def main(start: str):
 
 
 if __name__ == "__main__":
-    main("Enter the IP address")
+    main("Enter the IP address as well")
